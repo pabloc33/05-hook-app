@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { TodoApp } from "./components/08-useReducer/TodoApp";
 //import { CallbackHook } from "./components/06-memos/CallbackHook";
-import { Padre } from "./components/07-tarea-memo/Padre";
+//import { Padre } from "./components/07-tarea-memo/Padre";
 //import { MemoHook } from "./components/06-memos/MemoHook";
 //import { FormWithCustomHook } from "./components/02-useEffect/FormWithCustomHook";
 //import { MultiplesCustomHooks } from "./components/03-examples/MultiplesCustomHooks";
@@ -14,4 +15,4 @@ import { Padre } from "./components/07-tarea-memo/Padre";
 //import { CounterWithCustomHook } from "./components/01-useState/CounterWithCustomHook";
 //import { SimpleForm } from "./components/02-useEffect/SimpleForm";
 
-ReactDOM.render(<Padre />, document.getElementById("root"));
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
